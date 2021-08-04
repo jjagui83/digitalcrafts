@@ -1,10 +1,8 @@
-# variables
+firstName = "Jose"
+lastName = "Aguilar"
+fullName = firstName + lastName
 
-myName = "Jose Aguilar"
-
-myAge = 38
-
-favFood="Mom's home food"
-
-enjoyingCode = True
-
+print(fullName)
+"Hello my name is Jose"
+"Im from Housto"
+"Im excited to program

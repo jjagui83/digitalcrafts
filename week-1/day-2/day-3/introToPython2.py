@@ -1,5 +1,5 @@
 firstName = "Jose"
-lastName = "Aguilar" 
+lastName = "Aguilar"
 fullName = firstName + lastName
 
-print(fullName)
+print (fullName)
