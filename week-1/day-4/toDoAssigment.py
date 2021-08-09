@@ -11,6 +11,8 @@ def menu():
     print("[4] Quit ")
 
 menu()
+
+
 option = int(input(" Enter your option:"))
 
 while menu != 4:
