@@ -23,7 +23,7 @@ while menu != 4:
 
     if option == 2:
         title = input("Enter your task: ")
-        priority == input("Enter the priority of the task: ")
+        priority = input("Enter the priority of the task: ")
         toDo.remove([title, priority])
 
     if option == 3:
@@ -34,4 +34,4 @@ while menu != 4:
     menu()
     option = int(input("Enter your option: "))
 
-print(toDo)
+# print(toDo)
