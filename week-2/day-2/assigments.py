@@ -4,13 +4,18 @@
 
 
 
-# class :
+class User:
 
-#     def __init__(self, street, city, state, zip_code):
-#         self.street = street
-#         self.city = city
-#         self.state = state
-#         self.zip_code = zip_code
+    def __init__(self, firstName, lastName):
+        self.firstName = firstName
+        self.lastName = lastName
+        self.address = []
+    def addAdress(self, address):
+
+
+address = 
+
+
 
 #     def add_address(self, address):
 #         self.add_address = [address]
@@ -31,15 +36,15 @@
 # print(david.add_address)
 
 
-class Table:
-    def __init__(self):
-        self.height =
-        self.material =
-        self.seats =
-        self.color =
+# class Table:
+#     def __init__(self):
+#         self.height =
+#         self.material =
+#         self.seats =
+#         self.color =
 
 
-class Rectangular(Table):
+# class Rectangular(Table):
 
 
 
