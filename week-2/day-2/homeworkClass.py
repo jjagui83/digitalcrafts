@@ -1,7 +1,7 @@
 
 class GroceryStoreList:
-    def __init__(self, store, address):
-        self.store = store
+    def __init__(self, name, address):
+        self.name = name
         self.address = address
 
 class List:
@@ -45,9 +45,13 @@ while userChoice != "q":
         itemNames.append(cart)
     
     if userChoice == "3":
+        for store in storeNames:
+            for name in store.name:
+                print(store.name)
+                
         
         for cart in itemNames:
-            storeNames.append(store)
+            
             for content in cart.contents:                
                 print(content.name)
                 print(content.price)
