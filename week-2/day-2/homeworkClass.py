@@ -46,8 +46,7 @@ while userChoice != "q":
     
     if userChoice == "3":
         for store in storeNames:
-            for name in store.name:
-                print(store.name)
+            print(store.name)
                 
         
         for cart in itemNames:
