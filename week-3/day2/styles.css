@@ -1,0 +1,34 @@
+.main-container {
+    background-color: darkcyan;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+
+
+h1 {
+    background-color: rebeccapurple;
+    width: 200px;
+    margin: 5px;
+
+}
+
+
+h2 {
+    flex-grow: 2;
+    background-color: seagreen;
+
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin: 5px;
+    
+}
