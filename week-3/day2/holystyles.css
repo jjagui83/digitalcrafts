@@ -1,0 +1,22 @@
+.exercise {   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+header {
+    background-color: deepskyblue;
+    border: 2px solid navy;
+  
+
+   
+    
+
+}
+
+footer {
+    background-color: darkorange;
+    position: relative;
+}
