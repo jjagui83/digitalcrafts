@@ -1,0 +1,31 @@
+.index {
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: repeat;
+}
+
+
+.body2 {
+    background-image: url("https://images.unsplash.com/photo-1614465014824-74f885b50c83?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGthbGVpZG9zY29wZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+
+    background-repeat: repeat;
+}
+
+.doggo h1 {
+    color: limegreen;
+}
+
+.food {
+    background-color: rebeccapurple;
+}
+
+.cars{
+    background-image: url("https://images.unsplash.com/photo-1549490316-686f9b5d359f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHJldHJvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: repeat;
+}
+
+.travel {
+    background-image: url("https://images.unsplash.com/photo-1439405326854-014607f694d7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b2NlYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+.travel img {
+    margin-left: 70px;
+}
