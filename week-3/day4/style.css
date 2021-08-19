@@ -1,0 +1,30 @@
+.form-styles {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-input {
+    width: 200px;
+    padding-left: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 14px;
+    margin-bottom: 10px;
+    border: 1.15px solid grey;
+    
+}
+ .form-button {
+     background-color: coral;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border: none;
+     border-radius: 2px;
+ }
+::placeholder {
+    color: rgb(134, 139, 139);
+}
