@@ -17,3 +17,14 @@
 //     console.log(bill + tip)
 // }
 // tipAmount(100,good)
+
+// var x;
+//     for(let x =0; x <= 10; x++)
+//     console.log(x);
+
+var x = 0;
+while (x <= 10) {
+    console.log(x);
+    x++;
+}
+
