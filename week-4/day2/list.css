@@ -1,0 +1,28 @@
+body {
+     background-color: aqua;
+}
+
+.main-container {
+    background-color: #C197D2;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container2 {
+    background-color: #5D59AF;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    font-size: 50px;
+    color: #29A0B1;
+}
+.input {
+    border-radius: 5px;
+}
