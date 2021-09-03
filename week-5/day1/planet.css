@@ -1,0 +1,83 @@
+html {
+    background-image: url(https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z2FsYXh5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    min-height: 100%;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center c;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+
+
+
+}
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.planets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    padding: 5;
+    
+    grid-gap: 20px;
+}
+
+
+.header
+{
+    color: yellow;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+
+.planet1,
+.planet2,
+.planet3,
+.planet4,
+.planet5,
+.planet6,
+.planet7,
+.planet8,
+.planet9 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: mediumblue;
+    /* height: 100vhf; */
+}
+button {
+    font-size: 20px;
+    width: 230px;
+    
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: lato;
+    color: #1c5169;
+    background-color: #86dbff;
+    -webkit-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+    border: 2px solid transparent;
+    
+
+}
+button:hover {
+    background-color: #ceffd0;
+    -webkit-animation: breathing 3s infinite;
+            animation: breathing 3s infinite;
+    -webkit-box-shadow: 0px 0px 10px 0px #b5ffb8;
+            box-shadow: 0px 0px 10px 0px #b5ffb8;
+}
+
