@@ -48,6 +48,17 @@ app.put("/stocksUpdate/:stockID", async(req,res) => {
 })
 // *********
 
+app.delete("/deleteStock/:stockID", async (req,res) => {
+  const id = req.params.stockID;
+  const{data,error} = await supabase
+  .from("Stocks")
+  .delete()
+  .match({id:id})
+  console.log(data);
+  console.log(error);
+  res.send(data)
+})
 
 
 app.listen(PORT, console.log(`listening on ${PORT}`));
+
