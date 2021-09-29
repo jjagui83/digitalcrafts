@@ -1,0 +1,17 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+.CardData {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FBE7C6;
+}
