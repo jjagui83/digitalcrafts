@@ -1,6 +1,8 @@
 import React from 'react'
 import { BannerContainer } from '../StyledComponents/AppHeader'
 import {Link} from "react-router-dom"
+// import 'bootstrap/dist/css/bootstrap.css'
+// import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 export default function Header() {
     return (

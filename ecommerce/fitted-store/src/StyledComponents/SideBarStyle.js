@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const SidebarContainer = styled.div`
-  grid-area: sidebar;
+  grid-area: home;
   
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
   align-items: flex-start;
   background-color:#C0C0C0;

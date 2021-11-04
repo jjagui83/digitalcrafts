@@ -17,7 +17,7 @@ export const MainContainer = styled.div`
     height:2700px;
     background-color: #5885AF;
 
-    @media screen and (max-width: 800px) {
+    /* @media screen and (max-width: 800px) {
     .mainContainer {
         display: grid;
         grid-template-columns: 1fr;
@@ -28,7 +28,7 @@ export const MainContainer = styled.div`
         
         grid-gap: 20px;
     }
-}
+} */
 `
     
   

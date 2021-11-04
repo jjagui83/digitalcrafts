@@ -8,7 +8,7 @@ display: flex;
 flex-direction: column;
 /* width: 800px; */
 height: auto; 
-background-color:#274472;
+background-color:#D4F1F4;
 align-items: center;
 padding: 20px;
 margin: 50px;

@@ -15,7 +15,7 @@ height: auto;
 
   
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 700px) {
         
         display: flex;
         flex-direction: column;
