@@ -7,13 +7,17 @@
 - It is a simple page that includes seeding my own data and having it render on the screen.   
 - React Redux is also included, along with styled-components and hooks.   
 - As of creating this README there is still some styling that I would like to implement before it is all finalized.
+![react](https://user-images.githubusercontent.com/87708785/139694138-c926d934-cc5a-4b72-87c9-2a3893f1168e.png)
 
 ## Technoliges Used
 
 **Created with**:   
-- React
-- React-Redux
-- Styled-Components
+- React.
+- React-Redux.
+- Styled-Components.
+
+![react log](https://user-images.githubusercontent.com/87708785/139694545-a1c74276-f880-474d-87d3-467ab4039875.png)
+
 
 ## Concepts Learned
 - Using React to build user interfaces by using declarative and flexible JavaScript. 
