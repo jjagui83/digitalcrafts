@@ -1,0 +1,23 @@
+h1 {
+    color: aquamarine;
+}
+.cards {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    color: deepskyblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 200px;
+    width: 150px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}

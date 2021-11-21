@@ -1,0 +1,15 @@
+.userInput {
+    display: flex;
+    flex-direction: column;
+  
+    
+    width: 50vw;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+input {
+    width: 450px;
+    margin: 8px;
+}

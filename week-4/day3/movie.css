@@ -16,6 +16,7 @@ body {
     font-size: 30px;
     color: #352e29;
     background-color: #6B7EA4;
+    justify-content: center;
 }
 .posters {
     display: grid;
@@ -30,8 +31,8 @@ body {
 
 
 img {
-    box-shadow: 10px 10px 5px #C44B4F;
-    border-radius: 5px;
+    box-shadow: 10px 10px 25px #C44B4F;
+    border-radius: 15px;
 }
   
 h1 {
@@ -48,7 +49,7 @@ h1 {
         padding: 15px;
     
     
-}
+}}
 @media screen and (max-width: 940px) {
     .posters {
         display: grid;

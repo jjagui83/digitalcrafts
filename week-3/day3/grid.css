@@ -23,7 +23,7 @@ img {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        grid-template-rows: 1fr;
         background-color: #082D4B;
         gap: 20px;
     }

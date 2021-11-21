@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    width: 230px;
+}
+
+.signupfrom {
+    
+
+    justify-content: center;
+    align-items: center;
+    
+
+}

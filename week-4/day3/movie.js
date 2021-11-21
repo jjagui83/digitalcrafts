@@ -19,7 +19,7 @@ async function fetchMovies() {
         movieImages.className = "movieCards";
         const movieTitle = document.createElement("h2");
         const movieScreen = document.createElement("img");        
-        movieTitle.innerHtml = movie.Id;
+        movieTitle.innerHtml = movie.Title;
         movieScreen.src = movie.Poster;
 
         movieImages.append (movieScreen, movieTitle);

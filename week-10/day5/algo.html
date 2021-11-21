@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isAnagrams(stringA, stringB) {
+  
+  stringA = stringA.replace(/[^\w]/g, "").toLowerCase();
+  stringB = stringB.replace(/[^\w]/g, "").toLowerCase();
+  if (stringA.length !== stringB.length) return false;
+  let aCharMap = {};
+  let bCharMap = {};
+
+  for (let i = 0; i < stringA.length; i++) {
+    bCharMap[stringB[i]] = bCharMap[stringB[i]] + 1 || 1;
+    aCharMap[stringA[i]] = aCharMap[stringA[i]] + 1 || 1;
+  }
+  
+  for (let q of stringB) {
+    if (bCharMap[q] !== aCharMap[q]) {
+      return false;
+    }
+  }
+  return true;
+}  
+document.write(`isAnagram : ${isAnagrams('A gentleman', 'Elegant man')}`);
+document.write(`isAnagram : ${isAnagrams('Clint Eastwood', 'Old West Action')}`);
+document.write(`isAnagram : ${isAnagrams('idontlikealgos', 'algoverybad')}`);
+
+
+
+
+
+
+    </script>
+</body>
+</html>

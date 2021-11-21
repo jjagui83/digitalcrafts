@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+   
+    justify-content: center;
+    align-items: center;
+    border-spacing: 5px;
+    font-size:0px;
+    margin: 30px;
+    
+  }
+  /* .row {
+    display: 
+  } */
+  .cell {
+    width: 350px;
+    height: 350px;
+    background: #059DC0;
+    display: table-cell;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  /* .row div:last-child {
+    background: red
+  } */

@@ -8,7 +8,7 @@ export const FormContainer = styled.div`
 
   justify-content: right;
   align-items: center;
-  background-color: #B7CFDC;
+  background-color:grey;
 `;
 
 export const InputContainer = styled.div `
@@ -21,7 +21,7 @@ gap: 15px;
 border-radius: 8px;
 width: 250px;
 height: 400px;
-background-color: salmon;
+background-color: #B7CFDC;
 
 `;
 
@@ -44,4 +44,7 @@ border-radius: 10px;
 height: 30px;
 width: 75%;
 padding-right: 25px;
+`
+export const Checkbox = styled.input`
+
 `

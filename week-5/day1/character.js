@@ -17,7 +17,7 @@ async function getCharacters() {
         name.innerHTML = character.name;
         characterInfo.innerHTML = "Info";
         height.innerHTML = character.height;
-        birth.innerHTML = character.birth_year;
+        birth.innerHTML = character.homeworld;
         name.append(characterInfo);
         characterInfo.append(height, birth)
         dataContainer.append(name)

@@ -1,7 +1,7 @@
 // console.log("im in node");
 // npm node package manager
 // nvm node version manager
-//  const cowsay = require("cowsay")
+ const cowsay = require("cowsay")
 
 //  console.log(cowsay.say({}))
 

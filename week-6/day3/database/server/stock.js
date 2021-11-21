@@ -59,6 +59,9 @@ app.delete("/deleteStock/:stockID", async (req,res) => {
   res.send(data)
 })
 
+// *********
+
+
 
 app.listen(PORT, console.log(`listening on ${PORT}`));
 

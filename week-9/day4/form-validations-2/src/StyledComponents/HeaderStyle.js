@@ -11,16 +11,16 @@ export const UserButton = styled.button`
 
 export const UserPicture = styled.img`
   border-radius: 30%;
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
 `;
 
 export const HeaderHeader = styled.h1`
-  color: #385E72;
+  color: #fb6b90;
   font-family: "Roboto", sans-serif;
 `;
 export const HeaderContainer = styled.div`
-  background-color: #385E72;
+  background-color: #424c58;
   grid-area: header;
   display: flex;
   flex-direction: row;

@@ -1,0 +1,31 @@
+.Body {
+    background-color: #B4F8C8;
+    display: grid;
+    grid-column: auto auto;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.carDiv {
+   
+    display: grid;
+    grid-column: auto auto;
+   
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 400px;
+    width: 500px;
+}
+
+.Points {
+     
+    background-color: #A0E7E5;
+    
+ 
+}
